@@ -1,3 +1,6 @@
+Pickup is tinder for pickup basketball. We help local Vancouver basketball players link up and create a community within the basketball scene here in Vancouver. Once users are matched, they can see the phone number of the person that they have matched with and contact them.
+
+
 Pickup is for all people who want to play basketball in Vancouver and it helps connect people who enjoy the sport. Our project will store player profiles, matches (like Tinder), pickup games location and times, and chat messages. Users will be able to edit their profile, match with other people and find basketball games. We hope to allow users to filter profiles for beginners and gender. It would be nice to track how busy places are and show a map of where there are basketball courts.
 
 - Project task requirements:
