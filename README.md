@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+Pickup is for all people who want to play basketball in Vancouver and it helps connect people who enjoy the sport. Our project will store player profiles, matches (like Tinder), pickup games location and times, and chat messages. Users will be able to edit their profile, match with other people and find basketball games. We hope to allow users to filter profiles for beginners and gender. It would be nice to track how busy places are and show a map of where there are basketball courts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Project task requirements:
 
-## Available Scripts
+  - 3-5 minimal requirements (will definitely complete)
+    - Signup and create a profile
+    - Login/Signout
+    - See other people’s profile and match with people
+  - 3-7 "standard" requirements (will most likely complete)
 
-In the project directory, you can run:
+    - Filter people based on skill level and gender
+    - Edit profile
+    - Upload pictures
+    - Chat with the people you match with
+    - Filter based on people that are close to you
 
-### `npm start`
+  - 2-3 stretch requirements (plan to complete at least 1!)
+    - Check how busy certain basketball courts are through the map
+    - Create teams
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Pick 2 of your minimal requirements and break each of them down into ~2-5 smaller tasks!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Signup and create a profile
+  - Create sign up page
+  - Create mongo database
+  - Store user information in database
+  - Set up Google oauth
+- See other people’s profile and match with people
+  - Design profile view
+  - Create swiping functionality
+  - Store swipes/matches in database
+  - Simple algorithm to filter out people you’ve rejected
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mocks:
+<img width="9504" alt="Pickup" src="https://user-images.githubusercontent.com/74952538/170615741-06dd51e8-254f-4075-a657-1529e40f8b3c.png">
+<img width="8544" alt="Pickup copy" src="https://user-images.githubusercontent.com/74952538/170615875-65536a66-12b2-4a46-ac06-7a046b56f4e2.png">
